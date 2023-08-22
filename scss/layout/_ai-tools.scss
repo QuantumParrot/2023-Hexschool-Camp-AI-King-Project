@@ -1,0 +1,43 @@
+/* ai-tools */
+
+.ai-tools {
+    @extend .bg-white;
+    @extend .py-lg-11;
+    @extend .py-9;
+    border-radius: 160px;
+}
+
+.filter-list {
+    @extend .nav;
+    @extend .text-muted;
+    gap: 8px;
+    a {
+        @extend .px-3;
+        @extend .py-2;
+        @extend .rounded-4;
+        &:hover {
+            background: $light-gray; // Project variable
+            color: $black;
+            font-weight: $font-weight-bold; // BS variable
+        }
+    }
+    &::-webkit-scrollbar {
+        display: none;
+    };
+    @extend .flex-nowrap;
+    @extend .overflow-x-scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media (max-width: 991px) { /* 原本寫 768px 由於 991px 開始就會跑版了，所以進行調整 */
+    .ai-tools {
+        border-radius: 20px;
+    }
+    .filter {
+        order: 1;
+    }
+    .filter-list {
+        order: 2;
+    }
+}
