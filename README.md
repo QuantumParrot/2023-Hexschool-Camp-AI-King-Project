@@ -2,7 +2,7 @@
 
 ***
 
-#### 更新歷史 (Commit History)
+#### 舊版更新歷史
 
 2023.06.02 初次上傳至遠端儲存庫
 
@@ -30,4 +30,4 @@
 
 #### 網頁展示
 
-https://quantumparrot.github.io/2023-Hexschool-Camp-Project---AI-King/
+目前沒有
